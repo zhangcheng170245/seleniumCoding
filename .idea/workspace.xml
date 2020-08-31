@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da34e41e-e79b-4889-ba48-9f823c9e9b6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0a13dc6a-c153-4859-a79d-47621a62c2f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/166ea257-43b0-47ad-9965-e43059d58624-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/18fc76a0-dce6-478c-9bb9-145222469ee2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1a954141-2a35-4d15-b384-da51756cf7cc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d660e4d-c1ba-43f7-b910-ac65477133f5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1dcc595f-6085-4ec4-ae4c-6ff52b4e034a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/23dc03fa-353a-4a4b-8e1f-622cda424b71-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/299ee8d1-9c56-4fb2-8de7-b93b0ac596cb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2c784600-6a30-4f9b-919c-85c576570d58-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3bd460f7-0938-49ac-99f5-d23ad8434aea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3dfc7333-a8b2-4909-b9af-3239005e6225-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/422eefc8-ee3a-4c51-a485-ad3c20659fbc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/42429ccb-3974-46e6-b873-a5a0722d3afd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/449e0187-29f1-443a-bb2c-e49ac45c1b7b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4c6720de-2ae8-4096-92ce-823f3dd19c37-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4e010d16-88bc-4f3a-8280-406da1ebe604-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/53b2b2b6-0095-4896-a607-e660e94be9fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/556f2bbc-7e5f-4cbe-8db1-7258b0f4cfe3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6322554f-dedc-4984-82ac-c41754b8a2dc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/75466596-8adf-4bb3-8371-c8d952b4c675-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7beac38f-45f7-4dd5-b132-fe9d52834e8c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8610d786-583c-4f66-8596-bea7bd72f0e1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9c12f724-706a-4f0a-977f-46949b865dad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e694cbf-98a8-4e3e-b177-f9c2b289f189-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a9ecd64a-4854-4889-af05-54a2c26d31a3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b3b75948-6cb5-4c75-b7cc-fdf322e2e89e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c4db19cc-c622-4a57-8801-cd24fe195ac8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d2f6caee-5c8a-470a-83a0-80cb075c513d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d4093ea0-3c33-4e10-887a-3b8e43a1fcaf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d89f1aa6-c99b-4cd0-8b76-5d7b57ce3829-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d8d79b18-3b96-4f7d-8e1c-328555a72381-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dd9e2734-54f8-4b2a-ac36-f9ab224f43ca-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/deab944d-34bf-4224-8207-b01f3c8eab07-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e02d9f3c-8294-47c0-b9b4-48fb5ba9f378-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e2865cbd-430d-4a65-b79a-faaeb6df2d58-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e68f1561-ca5c-4ca5-a883-30bdcfff0683-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ed703d75-856f-4153-833c-09c36632ed88-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f513cb8b-08c4-4c47-9613-b5b7ec7cfe3c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f96939bc-eb29-40f6-928d-cc098994d719-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f9999b4b-1e3f-4d54-8df7-23a4bea2b780-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fb98f847-a5f7-4726-a311-80d5eaa5aa2a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fed97e6f-7100-46e1-a600-8d820a26b3d9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid9572.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_pid9572.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_web/wework/page/ContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_web/wework/page/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestSelenum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestSelenum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/pageObj/LoginPageObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/pageObj/TestPageObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/pageObj/loginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/startSelenum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/AliceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/ClickTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/JsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/alertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/windowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testWeb/test_framework/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testWeb/webwork/TestWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testWeb/webwork/testCase/testContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/TestWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="53" column="49" selection-end-line="72" />
+              <folding>
+                <element signature="e#0#4725#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenum2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#3221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/pageObj/LoginPageObj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="27" selection-end-line="44" />
+              <folding>
+                <element signature="e#0#1052#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/pageObj/loginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#789#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/testCase/testContact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_web/wework/page/ContactPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_web/wework/page/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+              <folding>
+                <element signature="e#5129#5130#0" expanded="true" />
+                <element signature="e#5158#5159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pgv_info</find>
+      <find>mainPage</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MainPage</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zhangcheng170245" />
+        <option value="zc170902823" />
+        <option value="170902823@qq.com" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/AliceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/startSelenum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/AliceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/ClickTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/windowTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/JsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/UploadTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/alertTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/testSelenium.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestSelenum.java" />
+        <option value="$PROJECT_DIR$/cookie.txt" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/webwork/page/WebBasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/test_framework/BasePage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test_framework/PageObjectModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_framework/UIAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_framework/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_web/wework/page/WebBasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/pageObj/TestPageObj.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/pageObj/LoginPageObj.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/pageObj/loginAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestSelenum2.java" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/webwork/page/mainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/webwork/page/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/webwork/TestWork.java" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/webwork/page/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_web/wework/page/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/test/testWeb/webwork/testCase/testContact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_web/wework/page/MainPage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test_selenium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test_selenium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test_selenium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test_selenium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-19" />
+    <option name="y" value="30" />
+    <option name="width" value="1698" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="test_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="webwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="webwork" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17521091" />
+    <property name="project.structure.side.proportion" value="0.27645612" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\mall\test_selenium\src\main\java\test_web\wework\page" />
+      <recent name="H:\mall\test_selenium\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="testcase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test_framework" />
+      <recent name="webwork.page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.testContact.search">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWork.chromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webwork" />
+      <option name="MAIN_CLASS_NAME" value="webwork.TestWork" />
+      <option name="METHOD_NAME" value="chromeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webwork.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webwork.testCase" />
+      <option name="MAIN_CLASS_NAME" value="webwork.testCase.testContact" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testContact.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webwork.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webwork.testCase" />
+      <option name="MAIN_CLASS_NAME" value="webwork.testCase.testContact" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testContact.testAddmember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webwork.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webwork.testCase" />
+      <option name="MAIN_CLASS_NAME" value="webwork.testCase.testContact" />
+      <option name="METHOD_NAME" value="testAddmember" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testContact.testAddmerber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webwork.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webwork.testCase" />
+      <option name="MAIN_CLASS_NAME" value="webwork.testCase.testContact" />
+      <option name="METHOD_NAME" value="testAddmerber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testContact.search" />
+        <item itemvalue="JUnit.testContact.testAddmerber" />
+        <item itemvalue="JUnit.testContact" />
+        <item itemvalue="JUnit.TestWork.chromeTest" />
+        <item itemvalue="JUnit.testContact.testAddmember" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da34e41e-e79b-4889-ba48-9f823c9e9b6a" name="Default Changelist" comment="" />
+      <created>1597589659659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597589659659</updated>
+      <workItem from="1597589680967" duration="8847000" />
+      <workItem from="1597631004620" duration="5764000" />
+      <workItem from="1597765866701" duration="1423000" />
+      <workItem from="1597850648039" duration="2148000" />
+      <workItem from="1597928486176" duration="3290000" />
+      <workItem from="1597933030436" duration="6805000" />
+      <workItem from="1597972308812" duration="5765000" />
+      <workItem from="1598063942688" duration="70000" />
+      <workItem from="1598197754369" duration="1687000" />
+      <workItem from="1598359704173" duration="725000" />
+      <workItem from="1598453483270" duration="25901000" />
+      <workItem from="1598678227537" duration="2814000" />
+      <workItem from="1598751631371" duration="619000" />
+      <workItem from="1598752500733" duration="5994000" />
+      <workItem from="1598778764269" duration="15825000" />
+      <workItem from="1598840179369" duration="28655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="testContact_testAddmerber - 2020.08.31 at 21h 58m 10s.xml">
+      <configuration name="testContact.testAddmerber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact_testAddmerber - 2020.08.31 at 22h 01m 53s.xml">
+      <configuration name="testContact.testAddmerber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact_testAddmerber - 2020.08.31 at 22h 13m 59s.xml">
+      <configuration name="testContact.testAddmerber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact - 2020.08.31 at 22h 15m 14s.xml">
+      <configuration name="testContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact - 2020.08.31 at 22h 18m 35s.xml">
+      <configuration name="testContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact - 2020.08.31 at 22h 22m 39s.xml">
+      <configuration name="testContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact_testAddmerber - 2020.08.31 at 22h 34m 13s.xml">
+      <configuration name="testContact.testAddmerber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact_search - 2020.08.31 at 22h 34m 51s.xml">
+      <configuration name="testContact.search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact_testAddmerber - 2020.08.31 at 22h 52m 29s.xml">
+      <configuration name="testContact.testAddmerber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testContact_search - 2020.08.31 at 22h 53m 13s.xml">
+      <configuration name="testContact.search" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="116332000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8635204" visible="true" weight="0.2583603" />
+      <window_info id="Structure" order="1" sideWeight="0.13647959" side_tool="true" weight="0.2583603" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16646563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946064" weight="0.5538089" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2159228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946064" weight="0.9486887" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053936" side_tool="true" weight="0.9486887" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.53929865" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24728589" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" sideWeight="0.49946064" weight="0.3295325" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32955772" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32955772" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8635204" visible="true" weight="0.2583603" />
+      <window_info id="Structure" order="1" sideWeight="0.13647959" side_tool="true" visible="true" weight="0.2583603" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.16761687" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946064" weight="0.26417372" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2159228" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946064" weight="0.9486887" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053936" side_tool="true" weight="0.9486887" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32839224" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.054282267" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" sideWeight="0.49946064" weight="0.3295325" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32955772" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32955772" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web自动化" />
+    <option name="LAST_COMMIT_MESSAGE" value="web自动化" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/AliceTest.java</url>
+          <line>20</line>
+          <properties field="webDriver" class="testcase.AliceTest" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/AliceTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/AliceTest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/windowTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/windowTest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/windowTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcase/UploadTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/testWeb/webwork/TestWork.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/testWeb/webwork/TestWork.java</url>
+          <line>18</line>
+          <properties class="webwork.TestWork">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/extension/TimeoutExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_161/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#1852#1853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1-sources.jar!/org/openqa/selenium/support/ui/WebDriverWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/MethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="13" selection-start-line="34" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/ClickTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/JsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/descriptor/ClassBasedTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/testSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/AliceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="79" column="5" selection-start-line="76" selection-start-column="3" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/alertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/startSelenum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="8" selection-start-column="10" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_161/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4178">
+          <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork.java" />
+    <entry file="file://$PROJECT_DIR$/cookie.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/UploadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1-sources.jar!/org/openqa/selenium/Cookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_161/src.zip!/java/io/StreamTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3280">
+          <caret line="187" column="12" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1-sources.jar!/org/openqa/selenium/remote/http/W3CHttpResponseCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="186" column="25" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/windowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="677" selection-start-line="677" selection-end-line="677" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2-sources.jar!/org/junit/platform/commons/util/ExceptionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar!/org/junit/platform/engine/support/hierarchical/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar!/org/junit/platform/engine/support/hierarchical/SameThreadHierarchicalTestExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#1100#1101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_web/page/ContantPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3080">
+          <caret line="154" column="72" selection-start-line="154" selection-start-column="72" selection-end-line="154" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_framework/UIAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_framework/PageObjectModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_web/wework/page/WebBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/test_framework/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_framework/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pageObj/TestPageObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pageObj/loginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pageObj/LoginPageObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/page/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/page/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/page/WebBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#3221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_web/wework/page/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/TestWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="53" column="49" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#4725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_web/wework/page/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+          <folding>
+            <element signature="e#5129#5130#0" expanded="true" />
+            <element signature="e#5158#5159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testWeb/webwork/testCase/testContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27645612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27645612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27645612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test_selenium</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27645612" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.2.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27645612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

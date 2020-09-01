@@ -44,7 +44,7 @@ public class testContact {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        main.quit();
+        contact.quit();
 
     }
 

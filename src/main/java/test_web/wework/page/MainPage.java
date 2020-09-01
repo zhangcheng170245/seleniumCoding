@@ -3,7 +3,6 @@ package test_web.wework.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,11 +12,10 @@ import java.util.concurrent.TimeUnit;
  * @Date: 2020/8/31 00:15
  * @Description:首页
  */
-public class MainPage {
+public class MainPage extends BasePage {
 
     //优化变量
    // public  static  ChromeDriver driver=null;
-    RemoteWebDriver driver;
 
     //项目初始化
     public MainPage() {
@@ -74,7 +72,8 @@ public class MainPage {
 
     public ContactPage toContact(){
         //通过定位符 点击联系人
-        driver.findElement(By.cssSelector("#menu_contacts")).click();
+      //  driver.findElement(By.cssSelector("#menu_contacts")).click();
+        click(By.cssSelector("#menu_contacts"));
         return  new  ContactPage(driver);
     }
 

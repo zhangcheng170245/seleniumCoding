@@ -54,15 +54,16 @@ public class MainPage extends BasePage {
         driver.manage().addCookie(new Cookie("wxpay.vid", "1688853852988095"));
         driver.manage().addCookie(new Cookie("wwrtx.vid", "1688853852988095"));
         driver.manage().addCookie(new Cookie("uin", "o0170902823"));
-        driver.manage().addCookie(new Cookie("skey", "@LdT9N8S2a"));
         driver.manage().addCookie(new Cookie("pgv_info", "ssid=s9428063456"));
         driver.manage().addCookie(new Cookie("Hm_lvt_9364e629af24cb52acc78b43e8c9f77d", "1598797409,1598862677"));
         driver.manage().addCookie(new Cookie("Hm_lpvt_9364e629af24cb52acc78b43e8c9f77d", "1598862677"));
-        driver.manage().addCookie(new Cookie("ww_rtkey", "71ckt8m"));
+        driver.manage().addCookie(new Cookie("skey", "@uw7EkkPAF"));
+        driver.manage().addCookie(new Cookie("ww_rtkey", "5s0a67k"));
+        driver.manage().addCookie(new Cookie("wwrtx.d2st", "a9722103"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "B-JlQAJAKuwt-5_SlKKnqw_byVm4dCREVFxeJUpviUNwX2qyFE_V0rCOZWASMTPV"));
+        driver.manage().addCookie(new Cookie("wwrtx.vst", "CxHbcCO-JqhgiN2MbohNgRxzqsnpCDydAQ7aIe_MTdeJDUEoEU8-d137ztUK9QbkL8vV9J2A8cgp5-dnNMvFCrdqkEWihD3UnoGswyvO5-WiYxc5H_d45-LyV4xhU0EHEi2a7CbX0Za-cHGaIxqiZS_JdpCKtFPAbLIx8AuKKSRZtZNzc6j5IUEy8Mrprl0GDx4Jkqu8hqA9IYtVR-Tp2-uVLyFj3E02UcMNz1icUMfE53M1Yc1R9EPxwzpEVe-U04GcNaQ3HSk8PA183s-Jaw"));
         driver.manage().addCookie(new Cookie("_gat", "1"));
-        driver.manage().addCookie(new Cookie("wwrtx.d2st", "a8375514"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "B-JlQAJAKuwt-5_SlKKnqx0ua1mnOjzAOlW7ywbRuJ7WmstueNCRY3J1boYBwI63"));
-        driver.manage().addCookie(new Cookie("wwrtx.vst", "TMTe_Soxlg0aC6i9mjdjRUBj7i4Cdm-xw7XWYbjiIjNfWrYPB4YolL8r6rPM52gEqDLEOkxgzGKh2wKn2_jwUhmdddbE0GhzABBvRPhVcu2idXAuBFw3CLskVJLFE_qeKkysL_c5pmnwKUnT50TdA15Kk5iNe-BUVq76wslch7JMCxUyQ2LENfW-7pVbMc4zi8_WyHWxovCDLrjhTsOutlkziqUUBWb1GsGUl29BzgWZ67FnJ0zv1ftBAIDYR0oRif58izV4zuRi4hDjkxzCnQ"));
+
 
         System.out.println(driver.manage().getCookies());
 
@@ -72,13 +73,9 @@ public class MainPage extends BasePage {
 
     public ContactPage toContact(){
         //通过定位符 点击联系人
-      //  driver.findElement(By.cssSelector("#menu_contacts")).click();
-        click(By.cssSelector("#menu_contacts"));
+        driver.findElement(By.cssSelector("#menu_contacts")).click();
+        //click(By.cssSelector("#menu_contacts"));
         return  new  ContactPage(driver);
     }
 
-
-    public void quit() {
-        driver.quit();
-    }
 }

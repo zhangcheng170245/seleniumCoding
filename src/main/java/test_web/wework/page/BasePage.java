@@ -16,17 +16,20 @@ import java.util.concurrent.TimeUnit;
  */
 public class BasePage {
 
-    RemoteWebDriver driver;
+    RemoteWebDriver driver=null;
     WebDriverWait wait;
 
     public BasePage() {
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS) ;
+        wait=new WebDriverWait(driver, 20);
 
     }
 
     public BasePage( RemoteWebDriver driver ) {
         this.driver = driver;
+        wait=new WebDriverWait(driver, 20);
+
     }
     // 抽取公用退出
     public void quit(){
@@ -34,16 +37,31 @@ public class BasePage {
     }
 
     //find 方法抽取
-    public void click( By by ){
+    public void click(By by) {
+        //todo: 异常处理
         wait.until(ExpectedConditions.elementToBeClickable(by));
-      driver.findElement(by).click();
-
+        driver.findElement(by).click();
     }
     //提取sendkeys方法
     public void sendKeys(By by, String content) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+        //todo 异常 处理
+     //   wait.until(ExpectedConditions.visibilityOfElementLocated(by));
         driver.findElement(by).sendKeys(content);
     }
+
+    // 提取上传方法
+    public void upload(By by, String path) {
+        wait.until(ExpectedConditions.presenceOfElementLocated(by));
+        driver.findElement(by).sendKeys(path);
+    }
+
+    // 提取获取名称方法
+    public  String getText(By by){
+        wait.until(ExpectedConditions.presenceOfElementLocated(by));
+        return driver.findElement(by).getText();
+
+    }
+
 
 
 

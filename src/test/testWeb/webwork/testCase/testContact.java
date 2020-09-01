@@ -15,14 +15,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @Description:
  */
 public class testContact {
+    static MainPage main;
+    static ContactPage contact;
 
-     static MainPage main;
-     static ContactPage contact;
     @BeforeAll
-    static void beforeAll(){
-        main= new MainPage();
-        contact=main.toContact();
+    static void beforeAll() {
+        main = new MainPage();
+        contact = main.toContact();
     }
+
 
     @Test
     void testAddmerber() {
@@ -31,11 +32,18 @@ public class testContact {
 
     }
 
+
     @Test
-    void search(){
-       contact.search("3").delete();
+    void testSearch(){
+        contact.search("3").delete();
     }
 
+    @Test
+    void testImportFromFile(){
+        //todo: 中文名
+        contact.importFromFile(this.getClass().getResource("/通讯录批量导入模板.xlsx"));
+
+    }
 
     @AfterAll
     public static void afterAll() {

@@ -3,6 +3,7 @@ package test.WxTest;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -20,15 +21,16 @@ import java.util.Set;
  * @param
  * @Auther: zhangcheng
  * @Date: 2020/11/12 12:29
- * @Description:企业微信自动化
+ * @Description:企业微信自动化  pageobgj改造
  */
 
-public class WechatWeb {
+public class WechatWeb2 {
 
-    private WebDriver driver;
+    private  static  WebDriver driver;
+
 
     @Test
-    public void before(){
+    static void before(){
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
         //利用chromedriver控制chrome
@@ -48,8 +50,8 @@ public class WechatWeb {
     }
 
 
-    @Test
-    public void logined() throws IOException, InterruptedException {
+    @BeforeAll
+    static void logined() throws IOException, InterruptedException {
         driver = new ChromeDriver();
         driver.get("https://work.weixin.qq.com/wework_admin/frame");
         //反序列化 引用

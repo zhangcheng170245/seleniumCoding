@@ -18,7 +18,9 @@ import java.util.StringTokenizer;
  * @Date: 2020/8/28 20:25
  * @Description:
  */
-public class TestSelenum { WebDriver driver;
+public class TestSelenum {
+
+    WebDriver driver;
 
     @Test
     public void testSelenium() {

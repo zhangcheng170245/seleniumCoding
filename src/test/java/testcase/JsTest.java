@@ -27,26 +27,19 @@ public class JsTest {
         webDriver = new ChromeDriver();
         actions= new Actions(webDriver);
         //设置3秒等待
-        webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        webDriver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     }
 
     @Test
-    public  void moveTest() throws InterruptedException {
-        //跳转测试网页
-        webDriver.get("https://www.12306.cn/index/");
-        // 通过id获取位置
-        JavascriptExecutor jswebDriver =(JavascriptExecutor)webDriver;
+        public  void moveTest() throws InterruptedException {
+            //跳转测试网页
+            webDriver.get("https://www.12306.cn/index/");
+            // 通过id获取位置
+            JavascriptExecutor jswebDriver =(JavascriptExecutor)webDriver;
 
-        jswebDriver.executeScript("document.getElementById('train_date').value('2020-08-25')");
-
-        System.out.println();
-
-
-
-
+            jswebDriver.executeScript("document.getElementById('train_date').value('2020-08-25')");
+            System.out.println();
     }
-
-
 
     @AfterAll
     public static void  teardowen(){

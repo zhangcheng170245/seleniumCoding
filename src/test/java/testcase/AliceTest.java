@@ -29,6 +29,9 @@ public class AliceTest {
         //显shi等待;
         wait=new WebDriverWait(webDriver,5);
 
+
+
+
     }
 
     @Test
@@ -63,8 +66,7 @@ public class AliceTest {
         
        // webDriver.findElement(By.xpath("//span[contains(text(),'登录')]")).click();
         //
-        WebElement webElement = wait.until(ExpectedConditions.
-                presenceOfElementLocated(By.xpath("//span[contains(text(),'登录')]")));
+        WebElement webElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'登录')]")));
 
         webElement.click();
 

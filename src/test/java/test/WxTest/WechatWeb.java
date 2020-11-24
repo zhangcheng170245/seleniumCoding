@@ -77,7 +77,7 @@ public class WechatWeb {
         Thread.sleep(1000);
         driver.findElement(By.name("acctid")).sendKeys("1111111");
         Thread.sleep(1000);
-        driver.findElement(By.id("memberAdd_phone")).sendKeys("13262553509");
+        driver.findElement(By.id("memberAdd_phone")).sendKeys("13428283251");
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@class='qui_btn ww_btn js_btn_save']")).click();
         Thread.sleep(5000);

@@ -1,12 +1,10 @@
 package testcase;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.touch.TouchActions;
@@ -32,17 +30,15 @@ public class ClickTest {
         //设置3秒等待
         webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
-    //@Ignore
+    @Ignore
     @Test() //点击测试
     public void click() throws InterruptedException {
         //跳转测试网页
         webDriver.get("http://sahitest.com/demo/clicks.htm");
         //单击
-        actions.click(webDriver.findElement(By.xpath("//input[@value='click me']")));  //获取input框单击的属性
-      //  actions.perform();
-        actions.doubleClick(webDriver.findElement(By.xpath("//input[@value='dbl click me']"))); // 双击
-    //    actions.perform();
-        actions.contextClick(webDriver.findElement(By.xpath("//input[@value='right click me']"))); //右键
+        actions.click(webDriver.findElement(By.xpath("input[@value='click me']")));  //获取input框单击的属性
+        actions.doubleClick(webDriver.findElement(By.xpath("input[@value='db click me']"))); // 双击
+        actions.contextClick(webDriver.findElement(By.xpath("input[@value='right click me']"))); //右键
         actions.perform();
         Thread.sleep(3000);
     }

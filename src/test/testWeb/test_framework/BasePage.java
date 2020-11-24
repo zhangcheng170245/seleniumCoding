@@ -1,4 +1,4 @@
-package test_pageObj_wx_web;
+package test_framework;
 
 /**
  * @param

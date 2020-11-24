@@ -29,7 +29,6 @@ public class AppMainPage extends AppBasePage{
     }
 
     public AppContactPage contact(  ){
-        //todo 函数待封装
         driver.findElement(By.xpath("//*[@text='通讯录']")).click();
         return new AppContactPage(driver);
     }

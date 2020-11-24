@@ -1,6 +1,7 @@
 package com_app_wx.app;
 
 import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.By;
 
 /**
  * @param
@@ -21,5 +22,13 @@ public class AppBasePage {
     public AppBasePage() {
 
     }
+    //输入事件封装
+    void sendkeys( By by, String contents){
+        driver.findElement(by).sendKeys(contents);
+    }
 
+    //by方法封装
+    void click(By by){
+        driver.findElement(by).click();
+    }
 }

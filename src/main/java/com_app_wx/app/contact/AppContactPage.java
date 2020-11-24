@@ -12,9 +12,9 @@ import org.openqa.selenium.WebElement;
  * @Description: 联系人
  */
 public class AppContactPage extends AppBasePage {
+
     //参数封装
-    //搜素
-    private By menu=By.id("i6i");
+    private By menu=By.id("i6i"); //进入通讯录管理
     private By serchButton=By.id("i6n");
     // 添加子部门
     private By addDepart=By.xpath("//*[@text='添加子部门']");
@@ -24,7 +24,10 @@ public class AppContactPage extends AppBasePage {
     private By departName=By.xpath("//android.view.ViewGroup//android.widget.TextView");
     //关闭
     private By closeButton=By.xpath("//*[contains(@resource-id, 'gpf') or contains(@resource-id, 'i6d')]");
-
+    private By confirm = By.id("i6k"); //确定保存
+    private By confirmodify = By.id("blx"); //确定修改
+    private By back = By.id("i63"); //后退
+    private By quit = By.id("i6d"); //退出
 
     public AppContactPage( AppiumDriver driver ) {
         super(driver);
@@ -55,6 +58,32 @@ public class AppContactPage extends AppBasePage {
         driver.findElement(editText).sendKeys(keyword);
         return this;
     }
+
+    /**
+     * 更新部门
+     * @param keyword
+     * @return
+     */
+    public AppContactPage update(String keyword,String newDepartName) throws InterruptedException {
+
+        driver.findElement(menu).click();
+        //点击输入的部门的编辑按钮
+        driver.findElement(By.xpath("//*[@text='"+keyword+"']")).click();
+        Thread.sleep(2000);
+        //点击更多管理
+        driver.findElement(By.id("gg5")).click();
+        //点击修改
+        driver.findElement(By.id("egd")).click();
+        //点击输入框关闭
+        driver.findElement(By.id("blm")).click();
+        Thread.sleep(3000);
+        //再次点击输入新部门
+        driver.findElement(By.id("blm")).sendKeys(newDepartName);
+        driver.findElement(confirmodify).click();
+        System.out.println(" 修改成功");
+        return this;
+    }
+
 
     /**
      *

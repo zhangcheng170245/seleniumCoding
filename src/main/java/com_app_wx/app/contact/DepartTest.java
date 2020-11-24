@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.net.MalformedURLException;
@@ -60,9 +61,13 @@ public class DepartTest {
         assertEquals(name,mainPage.contact().addDepart(name).search(name).getName());
     }
 
-    @Test
-    void  update(){
-
+    @ParameterizedTest
+    @CsvSource({
+            "旧的部门1,新的部门",
+    })
+    void  update(String name,String newDepartName) throws InterruptedException {
+        assertEquals(newDepartName,mainPage.contact().addDepart(name).update(name,newDepartName));
+        System.out.println("修改成功");
     }
 
     @Test

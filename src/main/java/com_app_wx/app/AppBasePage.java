@@ -1,4 +1,4 @@
-package test_app_wx.app;
+package com_app_wx.app;
 
 import io.appium.java_client.AppiumDriver;
 

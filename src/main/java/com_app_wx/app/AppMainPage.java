@@ -23,7 +23,7 @@ public class AppMainPage extends AppBasePage{
 
     public AppMainPage() throws MalformedURLException {
         driver = (AppiumDriver) DriverFactory.getInstance().createDriver();
-        System.out.println(driver);
+        System.out.println("驱动加载成功====");
         new WebDriverWait(driver,120)
                 .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@text='通讯录']")));
     }

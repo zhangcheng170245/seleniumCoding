@@ -12,7 +12,6 @@ import org.openqa.selenium.WebElement;
  * @Description: 联系人
  */
 public class AppContactPage extends AppBasePage {
-
     //参数封装
     private By menu=By.id("i6i"); //进入通讯录管理
     private By serchButton=By.id("i6n");
@@ -32,6 +31,7 @@ public class AppContactPage extends AppBasePage {
     public AppContactPage( AppiumDriver driver ) {
         super(driver);
     }
+
 
     /**
      * 添加方法
@@ -65,8 +65,8 @@ public class AppContactPage extends AppBasePage {
      * @return
      */
     public AppContactPage update(String keyword,String newDepartName) throws InterruptedException {
-
-        driver.findElement(menu).click();
+        click(menu);
+     //   driver.findElement(menu).click();
         //点击输入的部门的编辑按钮
         driver.findElement(By.xpath("//*[@text='"+keyword+"']")).click();
         Thread.sleep(2000);
@@ -98,6 +98,23 @@ public class AppContactPage extends AppBasePage {
         return  driver.findElement(departName).getText();
 
     }
+
+    public void clearDepart(String name) throws InterruptedException {
+        click(By.xpath("//*[@text='通讯录']")); //点击通讯录
+        click(menu); //点击通讯录管理
+        Thread.sleep(3000);
+
+        driver.findElement(By.xpath("//*[@text='"+name+"']")).click();
+        click(By.id("gg5"));//d点击更多管理
+        Thread.sleep(3000);
+        click(By.id("egd"));//点击删除
+        Thread.sleep(3000);
+        click(confirmodify); //点击确定
+        Thread.sleep(3000);
+        System.out.println("删除部门成功");
+
+    }
+
 
 }
 

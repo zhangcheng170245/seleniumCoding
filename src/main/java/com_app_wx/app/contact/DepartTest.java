@@ -70,8 +70,14 @@ public class DepartTest {
         System.out.println("修改成功");
     }
 
-    @Test
-    void  delete(){
+    @ParameterizedTest
+    @CsvSource({
+            "gggg"
+    })
+    void  delete(String name) throws InterruptedException {
+          mainPage.contact().clearDepart(name);
+        assertEquals("无",mainPage.contact().search(name).getName());
+
 
     }
 }

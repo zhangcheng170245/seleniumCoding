@@ -31,23 +31,17 @@ public class DepartTest {
         // 数据清理  通过借口
         mainPage = new AppMainPage();
 
-
-
-
     }
 
     @BeforeEach
     void beforeEach(){
         //进入入口
-
     }
 
     @AfterEach
     void afterEach(){
         //退到入口
     }
-
-
 
     @ParameterizedTest
     @ValueSource(strings = {"xx", "中文", "a_b", "a b", "xxx（）有限公司"})

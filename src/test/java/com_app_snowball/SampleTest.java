@@ -9,7 +9,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -26,7 +29,7 @@ public class SampleTest {
 
     public  static  AndroidDriver driver;
     private  static MainPage mainPage;
-
+    private static  WebDriverWait wait;
     public SampleTest() {
     }
 
@@ -112,4 +115,18 @@ public class SampleTest {
 
     }
 
-}
+    @Test
+    @DisplayName("测试名称：隐式等待")
+    public  void waityinshi() throws InterruptedException {
+        wait=new WebDriverWait(driver,10,1000);
+        //隐式等待 点击搜索后等待10s
+        driver.findElement(By.id("com.xueqiu.amdroid:id/home_search")).click();
+        driver.findElement(By.id("com.xueqiu.android:id/search_input_text")).sendKeys("阿里巴巴");
+        WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@text=BABA]")));
+        System.out.println(element.getAttribute("enable"));
+        element.click();
+
+     }
+    }
+
+

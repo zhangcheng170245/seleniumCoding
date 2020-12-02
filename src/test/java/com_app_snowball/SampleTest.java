@@ -19,6 +19,11 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.greaterThan;
+import static org.junit.Assert.assertEquals;
+
 /**
  * @param
  * @Auther: zhangcheng
@@ -127,6 +132,42 @@ public class SampleTest {
         element.click();
 
      }
+
+
+    @Test
+    @DisplayName("junt断言")
+    public void test_with_junit_assert() {
+        int expected = 51;
+        int actual = 51;
+
+        assertEquals(" 失败-参数不一致", expected, actual);
+    }
+
+    @Test
+    @DisplayName("hamcrest断言")
+    public void test_with_hamcrest_assertThat() {
+        int expected = 51;
+        int actual = 51;
+
+        assertThat("失败-参数不一致!", actual, equalTo(expected));
+    }
+
+
+    @Test
+    @DisplayName("hamcrest断言")
+    public void test_with_hamcrestprice() throws InterruptedException {
+        Thread.sleep(10000);
+        driver.findElement(By.id("com.xueqiu.android:id/home_search")).click();
+        driver.findElement(By.id("com.xueqiu.android:id/search_input_text")).sendKeys("阿里巴巴");
+        //点击港股
+        driver.findElement(By.xpath("//*[@text='BABA']")).click();
+        driver.findElement(By.xpath("//*[@text='股票']")).click();
+        Thread.sleep(3000 );
+        double realPrice = Double.parseDouble(driver.findElement(
+                By.xpath("//*[@text='09988']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']")).getText());
+        //hamcrest 断言
+        assertThat("股票价格比对",realPrice,greaterThan(500d));
+    }
     }
 
 

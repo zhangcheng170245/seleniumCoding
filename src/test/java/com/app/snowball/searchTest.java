@@ -41,6 +41,6 @@ public class searchTest extends  SnowBasePage{
         return  Stream.of(Arguments.of("alibaba","BABA",210d),
                 Arguments.of("wangyi","NTES",250d),
                 Arguments.of("Google","GOOGL",300d)// 名称，价格
-                );   // 名称，价格1
+        );   // 名称，价格1
     }
 }

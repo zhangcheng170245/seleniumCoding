@@ -2,11 +2,9 @@ package com.app.snowball;
 
 /**
  * @Author: zhangcheng
- * @Description: 搜索功能
- * @Date: 2020/12/2 21:10
+ * @Description:
+ * @Date: 2020/12/3 15:51
  * @Version: 1.0
  */
-public class SnowSearchPage extends SnowBasePage {
-
-
+public class SnowSearchPage  extends  SnowBasePage{
 }

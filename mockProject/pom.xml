@@ -13,11 +13,16 @@
 
 
     <dependencies>
+        <!-- JUNT5-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+        </dependency>
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock-jre8</artifactId>
             <version>2.27.0</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
@@ -30,20 +35,22 @@
             <groupId>net.lightbody.bmp</groupId>
             <artifactId>mitm</artifactId>
             <version>2.1.5</version>
-            <scope>test</scope>
         </dependency>
         <!-- rest assured-->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>4.3.1</version>
-            <scope>test</scope>
+            <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.1.2</version>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-path</artifactId>
-            <version>4.3.1</version>
-            <scope>test</scope>
+            <version>4.1.2</version>
         </dependency>
         <!-- httpclient-->
         <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
@@ -54,10 +61,11 @@
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>4.3.1</version>
+            <artifactId>json-path</artifactId>
+            <version>4.1.2</version>
             <scope>compile</scope>
         </dependency>
+
 
     </dependencies>
 

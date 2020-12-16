@@ -1,0 +1,12 @@
+[  {
+  "description":"以BigDecimal返回float和double类型",
+  "request":{
+    "uri":"/price",
+    "method":"get"
+  },
+  "response":{
+    "json":{
+      "price":12.12
+    }
+  }
+}]

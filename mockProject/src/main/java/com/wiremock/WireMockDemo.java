@@ -68,12 +68,13 @@ public class WireMockDemo {
 
     @Test   //代理mock
     public void prpxyMock() {
+        System.out.println(WireMockDemo.class.getResource("/mock1.json").getPath());
         try {
             stubFor(get(urlMatching(".*")).atPriority(10)
                     .willReturn(aResponse().proxiedFrom("https://ceshiren.com"))); //监听网站地址
             stubFor(get(urlMatching("/categories_and_latest")).atPriority(10)
                     .willReturn(aResponse().withBody(Files.readAllBytes(
-                            Paths.get(WireMockDemo.class.getResource("/mock.json").getPath().substring(1)))))); //读取json数据
+                            Paths.get(WireMockDemo.class.getResource("/mock1.json").getPath().substring(1)))))); //读取修改后的json数据
             Thread.sleep(500000);
         } catch (IOException e) {
             e.printStackTrace();

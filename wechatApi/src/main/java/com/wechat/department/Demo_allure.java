@@ -9,10 +9,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.slf4j.Logger;
@@ -31,21 +28,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Epic("Epic企业微信接口测试用例")
 @Feature("Feature部门相关功能测试")
 public class Demo_allure {
-    private static final Logger logger = LoggerFactory.getLogger(Demo_03_timestamp_evnclear.class);
-    static String departmentId;
+    private static final Logger logger = LoggerFactory.getLogger(Demo_allure.class);
     static String accessToken;
-
 
     @BeforeAll
     public  static  void  getAccessToken(){
          accessToken = TokenUtil.getAccessToken();
+         logger.info(accessToken);
     }
-    //数据清理  每次用例启动结束时执行
-  /*  @BeforeEach
-    @AfterEach*/
+    //数据清理  每次用例启动结束时执
+
+    @BeforeEach
+    @AfterEach
     void clearDepartment(){
         EvnHelperTask.clearDpartMentTask(accessToken);
-
     }
 
     @Description("Description这个测试方法会测试创建部门的功能-入参数据驱动")
@@ -54,36 +50,32 @@ public class Demo_allure {
     @ParameterizedTest
     @CsvFileSource(resources = "/data/createDepartment.csv", numLinesToSkip = 1)
     void createDepartment(String creatName, String creatEnName, String returnCode) {
-
         Response response=DepartMentObj.creatDepartMent(creatName,creatEnName,accessToken);
         assertEquals(returnCode,response.path("errcode").toString());
     }
 
 
-    @Description("Description这个测试方法会测试创建部门的功能-入参数据驱动")
-    @Story("stroy创建部门测试")
-    @DisplayName("DisplayName创建部门")
+    @Description("Description这个测试方法会测试修改部门的功能")
+    @Story("Story修改部门测试")
+    @DisplayName("DisplayName修改部门")
     @Test
-    @Order(2)
     void updateDepartment() {
         // 姓名添加时间戳 防重
-        String updateName= "橙子大王"+ FakerUtils.getTimeStamp();
+        String updateName= "orange"+ FakerUtils.getTimeStamp();
         String updateEnName = "en_name"+FakerUtils.getTimeStamp();
         String departMentId= DepartMentObj.creatDepartMent(accessToken);
 
-        Response updateResponse =DepartMentObj.updateDepartMent(updateName,updateEnName,departmentId,accessToken);
+        Response updateResponse =DepartMentObj.updateDepartMent(updateName,updateEnName,departMentId,accessToken);
 
         assertEquals("0",updateResponse.path("errcode").toString());
-
     }
 
     @DisplayName("DisplayName查询部门")
     @Description("Description这个测试方法会测试查询部门的功能")
     @Story("Story查询部门测试")
     @Test
-    @Order(3)
     void listDepartment() {
-        String creatName= "橙子大王"+ FakerUtils.getTimeStamp();
+        String creatName= "orange"+ FakerUtils.getTimeStamp();
         String creatEnName = "en_name"+FakerUtils.getTimeStamp();
 
         // 获取部门id
@@ -97,10 +89,10 @@ public class Demo_allure {
         assertEquals(creatName+"x",listResponse.path("department.name[0]").toString());
         assertEquals(creatEnName+"x",listResponse.path("department.name_en[0]").toString());*/
         assertAll("查询返回值校验",
-                () ->assertEquals("1",listResponse.path("errcode").toString()),
-                ()->assertEquals(departmentId+"x",listResponse.path("department.id[0]").toString()),
-                ()->assertEquals(creatName+"x",listResponse.path("department.name[0]").toString()),
-                ()->assertEquals(creatEnName+"x",listResponse.path("department.name_en[0]").toString())
+                () ->assertEquals("0",listResponse.path("errcode").toString()),
+                ()->assertEquals(departMentId,listResponse.path("department.id[0]").toString()),
+                ()->assertEquals(creatName,listResponse.path("department.name[0]").toString()),
+                ()->assertEquals(creatEnName,listResponse.path("department.name_en[0]").toString())
 
         );
 

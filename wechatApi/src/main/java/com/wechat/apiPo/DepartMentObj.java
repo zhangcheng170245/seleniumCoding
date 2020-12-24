@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
  */
 public class DepartMentObj {
     /**
-     * @param creatName
+     * @param creatName 部门名称
      * @param creatEnName
      * @param accessToken
      * @return
@@ -103,4 +103,7 @@ public class DepartMentObj {
                 ;
         return deletResponse;
     }
+
+
+
 }

@@ -37,7 +37,6 @@ public class Demo_allure {
          logger.info(accessToken);
     }
     //数据清理  每次用例启动结束时执
-
     @BeforeEach
     @AfterEach
     void clearDepartment(){
@@ -53,7 +52,6 @@ public class Demo_allure {
         Response response=DepartMentObj.creatDepartMent(creatName,creatEnName,accessToken);
         assertEquals(returnCode,response.path("errcode").toString());
     }
-
 
     @Description("Description这个测试方法会测试修改部门的功能")
     @Story("Story修改部门测试")
@@ -111,4 +109,5 @@ public class Demo_allure {
         assertEquals("0",response.path("errcode").toString());
 
     }
-}
+
+    }

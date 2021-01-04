@@ -16,12 +16,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class Demo1_base {
+    //日志类
     private static Logger logger= LoggerFactory.getLogger(Demo1_base.class);
     static String accessToken;
     //部门id
     static String departMentId;
 
-    @BeforeAll
+    @BeforeAll //脚本启动时
     public  static  void  getAccessToken(){
         accessToken=given().log().all()
                 .when()

@@ -23,9 +23,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @Version: 1.0
 创建部门多线程测试
  *  */
-
 public class Demo_07Thread_bingfa {
-    private static final Logger logger = LoggerFactory.getLogger(Demo_03_timestamp_evnclear.class);
+    private static final Logger logger = LoggerFactory.getLogger(Demo_07Thread_bingfa.class);
     static String departmentId;
     static String accessToken;
 

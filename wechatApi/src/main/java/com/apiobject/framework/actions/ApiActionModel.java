@@ -30,7 +30,7 @@ public class ApiActionModel {
     private String get;
     private Response response; //接受返回参数
     private ArrayList<String> formalParam; //形参
-    private HashMap<String, String> actualVariables = new HashMap<>();
+    private HashMap<String, String> actionVariables = new HashMap<>();
 
 
     //定义run方法
@@ -42,10 +42,10 @@ public class ApiActionModel {
         String runUrl = this.url;
         //1 确定请求方法url
         if (post != null) {
-            url = post; //url 为post字段后的 地址值
+            runUrl = post; //runurl 为post字段后的 地址值
             method = "post";
         } else if (get != null) {
-            url = get;
+            runUrl = get;
             method = "get";
         }
         //2 确定请求参数  URL 中全局变量替换 使用占位符工具
@@ -59,44 +59,40 @@ public class ApiActionModel {
         //替换url全局变量
         runUrl = PlaceholderUtils.resolveString(runUrl, GlobalVariables.getGlobalVariables());
 
-        if (formalParam!=null && actualParameter!=null&& formalParam.size()>0 && actualParameter.size()>0){
-        //3据形参实参构建内部变量MAP
-        for (int index = 0; index < formalParam.size(); index++) {
-            //实参放入转换的值
-            actualVariables.put(formalParam.get(index), actualParameter.get(index));
+        if (formalParam != null && actualParameter != null &&
+                formalParam.size() > 0 && actualParameter.size() > 0) {
+            //3据形参实参构建内部变量MAP
+            for (int index = 0; index < formalParam.size(); index++) {
+                //实参放入转换的值
+                actionVariables.put(formalParam.get(index), actualParameter.get(index));
+            }
+            //4 请求url 内部变量进行替换
+            if (query != null) {
+                finalQuery.putAll(PlaceholderUtils.resolveMap(query, actionVariables));
+            }
+            runBody = PlaceholderUtils.resolveString(body, actionVariables);
+            runUrl = PlaceholderUtils.resolveString(runUrl, actionVariables);
         }
-        //4 请求url 内部变量进行替换
-        if (query != null) {
-            finalQuery.putAll(PlaceholderUtils.resolveMap(query, actualVariables));
-        }
-        runBody = PlaceholderUtils.resolveString(body, actualVariables);
-        runUrl = PlaceholderUtils.resolveString(runUrl, actualVariables);
-    }
         //5 請求返回結果
         RequestSpecification requestSpecification = given().log().all();
         //判断类型
-        if (contentType!=null){
+        if (contentType != null) {
             requestSpecification.contentType(contentType);
         }
-        if (headers!=null){
+        if (headers != null) {
             requestSpecification.headers(headers);
         }
-        if(finalQuery!=null && finalQuery.size()>0){
+        if (finalQuery != null && finalQuery.size() > 0) {
             requestSpecification.formParams(finalQuery);
-        }else if (runBody!=null){
+        } else if (runBody != null) {
             requestSpecification.body(runBody);
         }
         // 使用 组装完成的方法请求
-        Response response=requestSpecification.request(method,runUrl).then().log().all().extract().response();
-
-        this.response=response;
+        Response response = requestSpecification.request(method, runUrl)
+                .then().log().all().extract().response();
+        this.response = response;
 
         return response;
 
     }
-
-
 }
-
-
-

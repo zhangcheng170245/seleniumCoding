@@ -31,7 +31,6 @@ public class UserObj {
                 "    \"mobile\": \""+mobile+"\",\n" +
                 " \n" +
                 "}";
-
         // 信任证书
         useRelaxedHTTPSValidation();
         Response creatResponse=given().log().all()

@@ -1,8 +1,9 @@
-package com.wechat.department;
+package com.wechat.user;
 
 import com.wechat.EvnHelperTask.UserClearTask;
 import com.wechat.apiPo.TokenUtil;
 import com.wechat.apiPo.UserObj;
+import com.wechat.department.Demo_allure;
 import com.wechat.utils.FakerUtils;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;

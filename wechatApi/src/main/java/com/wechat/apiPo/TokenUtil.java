@@ -12,9 +12,9 @@ public class TokenUtil {
     public static String  getAccessToken(){
       String  accessToken=given()
                 .when()
-                .param("corpid","ww2371688596201076")
-                .param("corpsecret","okaj3sQZSWJmGneNjh4s4IHkp5RD8j3v_7ZSa8IHF6Y")
-                .get("https://qyapi.weixin.qq.com/cgi-bin/gettoken")
+                .param("corpid","ww2371688596201076")  //企业id
+                .param("corpsecret","okaj3sQZSWJmGneNjh4s4IHkp5RD8j3v_7ZSa8IHF6Y")  //企业密钥
+                .get("https://qyapi.weixin.qq.com/cgi-bin/gettoken") // 请求地址
                 .then()
                 .extract().response().path("access_token");  // 提取响应
         return accessToken;

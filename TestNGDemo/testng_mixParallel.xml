@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Third suite" verbose="1" parallel="methods" thread-count="2"  time-out="60000">
+
+    <!-- 多线程执行套件-->
+    <test name="TableLockTest">
+        <classes>
+            <!-- 多线程测试用例名-->
+            <class name="TestNGExample.TheardDemo" />
+        </classes>
+    </test>
+</suite>

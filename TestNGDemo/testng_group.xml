@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite06">
+    <test verbose="2" name="TestGroups">
+        <groups>
+            <!-- define编队-->
+            <define name="all">
+                <include name="group01"/>
+                <include name="group02"/>
+            </define>
+            <run>
+                <!--                <include name="all"/>-->
+               <!-- 运行包含3 的测试用例-->
+                <include name="group03"/>
+                <!--                <exclude name="group02"/>-->
+            </run>
+        </groups>
+        <classes>
+            <!--所执行类的位置 -->
+            <class name="TestNGExample.package1.Class1Test"/>
+        </classes>
+    </test>
+</suite>

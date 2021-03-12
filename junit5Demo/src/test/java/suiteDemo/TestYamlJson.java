@@ -3,6 +3,7 @@ package suiteDemo;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.io.IOException;
@@ -24,6 +25,13 @@ public class TestYamlJson {
     public void testDDTFromJson(User user) {
         assertTrue(user.name.length() > 3);
 
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = {"user.csv"} ,numLinesToSkip = 1)
+    public void parameterizedCsvFileSourceTest(int n1,int n2){
+        System.out.println(n1);
+        System.out.println(n2);
     }
 
     static List<User> testDDTFromJson() throws IOException {

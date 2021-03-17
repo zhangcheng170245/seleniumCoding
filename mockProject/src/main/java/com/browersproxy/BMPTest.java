@@ -26,6 +26,12 @@ public class BMPTest {
                     contents.setTextContents(neWcontents);
                 }
             });
+            //// TODO: 2021/3/17/017  可添加弱网限速等功能
+            proxy.addRequestFilter(((request,contents,messageInfo)-> {
+                request.setUri("/");  // 将请求逆转为其他url请求地址
+                return  null;
+            }));
+
         System.in.read();
     }
 

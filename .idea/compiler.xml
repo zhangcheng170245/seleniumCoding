@@ -2,13 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test_selenium" />
+        <module name="seleniumAuto" />
+        <module name="junit5Demo" />
+        <module name="PageObjzcc" />
+        <module name="wechatApi" />
+        <module name="wechatApiTest" />
+        <module name="testAppium" />
+        <module name="junt4Demo" />
+        <module name="mockProject" />
+        <module name="TestNGDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="ZzTest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ZzTest" options="-parameters" />
+    </option>
   </component>
 </project>

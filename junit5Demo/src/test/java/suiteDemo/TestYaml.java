@@ -20,9 +20,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestYaml {
 
     @ParameterizedTest() //参数化注解
-    @MethodSource //指定名字来同名的测试方法
+    @MethodSource("testDDTFromYaml") //指定名字来同名的测试方法
     public void testDDTFromYaml(User user) {
-        assertTrue(user.name.length() > 3);
+        assertTrue(user.name.length() > 4);
 
     }
     static List<User> testDDTFromYaml() throws IOException {

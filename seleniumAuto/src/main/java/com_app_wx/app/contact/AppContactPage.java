@@ -29,7 +29,7 @@ public class AppContactPage extends AppBasePage {
     private By back = By.id("i63"); //后退
     private By quit = By.id("i6d"); //退出
 
-    public AppContactPage( AppiumDriver driver ) {
+    public AppContactPage(AppiumDriver driver) {
         super(driver);
     }
 
@@ -39,7 +39,7 @@ public class AppContactPage extends AppBasePage {
      *
      * @param name 部门名称
      */
-    public AppContactPage addDepart( String name ) {
+    public AppContactPage addDepart(String name) {
         driver.findElement(menu).click();
         driver.findElement(addDepart).click();
         driver.findElement(editText).sendKeys(name);
@@ -55,7 +55,7 @@ public class AppContactPage extends AppBasePage {
      * @param keyword
      * @return
      */
-    public AppContactPage search( String keyword ) {
+    public AppContactPage search(String keyword) {
         driver.findElement(serchButton).click();
         // 输入新建的部门名称
         driver.findElement(editText).sendKeys(keyword);
@@ -68,7 +68,7 @@ public class AppContactPage extends AppBasePage {
      * @param keyword
      * @return
      */
-    public AppContactPage update( String keyword, String newDepartName ) throws InterruptedException {
+    public AppContactPage update(String keyword, String newDepartName) throws InterruptedException {
         click(menu);
         //   driver.findElement(menu).click();
         //点击输入的部门的编辑按钮
@@ -102,7 +102,7 @@ public class AppContactPage extends AppBasePage {
 
     }
 
-    public void clearDepart( String name ) throws InterruptedException {
+    public void clearDepart(String name) throws InterruptedException {
         click(By.xpath("//*[@text='通讯录']")); //点击通讯录
         click(menu); //点击通讯录管理
         Thread.sleep(3000);
@@ -143,14 +143,16 @@ public class AppContactPage extends AppBasePage {
     //=============成员添加=====================
     @AndroidFindBy(xpath = "//*[@class='android.widget.Toast']")
     private WebElement toast;    //弹窗信息
+
     /**
      * 添加成员
-     * @param username	用户名
-     * @param userPhone		手机号
-     * @return	ContactPage
+     *
+     * @param username  用户名
+     * @param userPhone 手机号
+     * @return ContactPage
      */
-    public AppContactPage addMember( String username, String userPhone) throws InterruptedException {
-       click(clickMenu);
+    public AppContactPage addMember(String username, String userPhone) throws InterruptedException {
+        click(clickMenu);
         Thread.sleep(3000);
         click(addMem); // 添加成员
         Thread.sleep(3000);
@@ -163,7 +165,8 @@ public class AppContactPage extends AppBasePage {
         click(saveBtn);
         return this;
     }
-        //toast
+
+    //toast
     public String getToast() {
         return toast.getText();
 

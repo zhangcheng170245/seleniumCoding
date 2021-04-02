@@ -10,6 +10,4 @@ package suiteDemo;
 public class User {
     public String name;
 
-
-
 }

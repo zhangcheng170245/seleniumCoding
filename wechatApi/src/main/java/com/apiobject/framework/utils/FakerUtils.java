@@ -12,7 +12,8 @@ import java.util.Random;
  * @Date: 2020/12/20 16:32
  * @Version: 1.0
  */
-public class FakerUtils {   private final static int delta = 0x9fa5 - 0x4e00 + 1;
+public class FakerUtils {
+    private final static int delta = 0x9fa5 - 0x4e00 + 1;
 
     /**
      * @author: kuohai
@@ -45,18 +46,20 @@ public class FakerUtils {   private final static int delta = 0x9fa5 - 0x4e00 + 1
         return s;
 
     }
+
     /**
-     * @author:  kuohai
+     * @author: kuohai
      * @methodsName: getTimeStamp
      * @description:
-     * @param:  []
+     * @param: []
      * @return: java.lang.String
      * @throws:
      */
-    public static String getTimeStamp(){
-        return  String.valueOf(System.currentTimeMillis());
+    public static String getTimeStamp() {
+        return String.valueOf(System.currentTimeMillis());
 
     }
+
     /**
      * @author: kuohai
      * @methodsName: getNum

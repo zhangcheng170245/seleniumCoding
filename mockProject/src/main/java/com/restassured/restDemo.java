@@ -2,7 +2,7 @@ package com.restassured;
 
 import com.github.fge.jsonschema.cfg.ValidationConfiguration;
 import com.github.fge.jsonschema.main.JsonSchemaFactory;
-import com.restassured.util.RequestUtil;
+import com.wechat.utils.RequestUtil;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.Test;
 

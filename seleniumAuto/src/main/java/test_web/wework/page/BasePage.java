@@ -16,23 +16,24 @@ import java.util.concurrent.TimeUnit;
  */
 public class BasePage {
 
-    RemoteWebDriver driver=null;
+    RemoteWebDriver driver = null;
     WebDriverWait wait;
 
     public BasePage() {
-        driver=new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS) ;
-        wait=new WebDriverWait(driver, 20);
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        wait = new WebDriverWait(driver, 20);
 
     }
 
-    public BasePage( RemoteWebDriver driver ) {
+    public BasePage(RemoteWebDriver driver) {
         this.driver = driver;
-        wait=new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 20);
 
     }
+
     // 抽取公用退出
-    public void quit(){
+    public void quit() {
         driver.quit();
     }
 
@@ -42,10 +43,11 @@ public class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(by));
         driver.findElement(by).click();
     }
+
     //提取sendkeys方法
     public void sendKeys(By by, String content) {
         //todo 异常 处理
-     //   wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+        //   wait.until(ExpectedConditions.visibilityOfElementLocated(by));
         driver.findElement(by).sendKeys(content);
     }
 
@@ -56,13 +58,11 @@ public class BasePage {
     }
 
     // 提取获取名称方法
-    public  String getText(By by){
+    public String getText(By by) {
         wait.until(ExpectedConditions.presenceOfElementLocated(by));
         return driver.findElement(by).getText();
 
     }
-
-
 
 
 }

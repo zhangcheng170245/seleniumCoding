@@ -48,7 +48,6 @@ public class Demo_05 {
     @ParameterizedTest
     @CsvFileSource(resources = "/data/createDepartment.csv", numLinesToSkip = 1)
     void createDepartment(String creatName, String creatEnName, String returnCode) {
-
         Response response=DepartMentObj.creatDepartMent(creatName,creatEnName,accessToken);
         assertEquals(returnCode,response.path("errcode").toString());
     }

@@ -1,0 +1,49 @@
+{
+  "name": "[1] abcdefghijabcdefghijabcdefghij12, en_name, 0",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1616125320648,
+  "stop": 1616125321405,
+  "uuid": "5d3f2850-3fa5-43d2-a08d-48ff83747e6a",
+  "historyId": "bda651a5159f73e691641ffd735ccb92",
+  "fullName": "com.wechat.department.Demo_05.createDepartment",
+  "labels": [
+    {
+      "name": "host",
+      "value": "USER-20161017XP"
+    },
+    {
+      "name": "thread",
+      "value": "8136@USER-20161017XP.ForkJoinPool-1-worker-2(15)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "com.wechat.department.Demo_05"
+    },
+    {
+      "name": "testClass",
+      "value": "com.wechat.department.Demo_05"
+    },
+    {
+      "name": "testMethod",
+      "value": "createDepartment"
+    },
+    {
+      "name": "suite",
+      "value": "com.wechat.department.Demo_05"
+    }
+  ],
+  "links": []
+}

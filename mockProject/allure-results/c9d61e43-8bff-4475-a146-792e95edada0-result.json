@@ -1,0 +1,49 @@
+{
+  "name": "easyMock()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615909741791,
+  "stop": 1615909842814,
+  "uuid": "c9d61e43-8bff-4475-a146-792e95edada0",
+  "historyId": "ecb8353b7e91ac0addaf5c39912ee3ea",
+  "fullName": "com.wiremock.WireMockDemo.easyMock",
+  "labels": [
+    {
+      "name": "host",
+      "value": "USER-20161017XP"
+    },
+    {
+      "name": "thread",
+      "value": "18208@USER-20161017XP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "com.wiremock.WireMockDemo"
+    },
+    {
+      "name": "testClass",
+      "value": "com.wiremock.WireMockDemo"
+    },
+    {
+      "name": "testMethod",
+      "value": "easyMock"
+    },
+    {
+      "name": "suite",
+      "value": "com.wiremock.WireMockDemo"
+    }
+  ],
+  "links": []
+}

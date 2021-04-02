@@ -1,0 +1,12 @@
+{
+  "uuid": "2e3d7064-178c-46a7-bd35-f767a8d7de61",
+  "name": "stubMock()",
+  "children": [
+    "7f59ba72-1d3f-4180-a85e-aa0a23a30f3c"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1615909028630,
+  "stop": 1615909079328
+}

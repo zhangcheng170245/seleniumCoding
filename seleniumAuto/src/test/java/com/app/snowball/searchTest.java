@@ -16,19 +16,19 @@ import static org.hamcrest.Matchers.greaterThan;
  * @Date: 2020/12/2 22:09
  * @Version: 1.0
  */
-public class searchTest extends  SnowBasePage{
+public class searchTest extends SnowBasePage {
 
     @ParameterizedTest
     @MethodSource("searchByNameParma")  // 参数化类
-    public void searchByName(String name,String code,double price) throws InterruptedException {
+    public void searchByName(String name, String code, double price) throws InterruptedException {
         driver.findElement(By.id("com.xueqiu.android:id/home_search")).click();
         driver.findElement(By.id("com.xueqiu.android:id/search_input_text")).sendKeys(name);
-        driver.findElement(By.xpath("//*[@text='"+code+"']")).click();
+        driver.findElement(By.xpath("//*[@text='" + code + "']")).click();
         String text = driver.findElement(By.xpath
-                ("//*[@text='"+code+"']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']")).getText();
+                ("//*[@text='" + code + "']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']")).getText();
         double realPrice = Double.parseDouble(text);
         System.out.println(text);
-        assertThat("股票价格比对",realPrice,greaterThan(price));
+        assertThat("股票价格比对", realPrice, greaterThan(price));
         //点击取消重新搜索
         driver.findElement(By.id("com.xueqiu.android:id/action_close")).click();
 
@@ -37,10 +37,10 @@ public class searchTest extends  SnowBasePage{
     /**
      * 参数化
      */
-    public static Stream<Arguments> searchByNameParma(){
-        return  Stream.of(Arguments.of("alibaba","BABA",210d),
-                Arguments.of("wangyi","NTES",250d),
-                Arguments.of("Google","GOOGL",300d)// 名称，价格
+    public static Stream<Arguments> searchByNameParma() {
+        return Stream.of(Arguments.of("alibaba", "BABA", 210d),
+                Arguments.of("wangyi", "NTES", 250d),
+                Arguments.of("Google", "GOOGL", 300d)// 名称，价格
         );   // 名称，价格1
     }
 }

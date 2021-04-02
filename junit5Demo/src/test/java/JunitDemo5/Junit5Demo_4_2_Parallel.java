@@ -1,5 +1,6 @@
 package JunitDemo5;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import util.Calculator;
 
@@ -20,8 +21,8 @@ public class Junit5Demo_4_2_Parallel {
         assertEquals(6,result);
     }
 
-
-    @RepeatedTest(10)
+    @DisplayName("多线成")
+    @RepeatedTest(value=10,name = "{displayName},执行第{currentRepetition}次}")
     public void sub() throws InterruptedException {
         int result= Calculator.subtract(4,2);
         System.out.println(result);

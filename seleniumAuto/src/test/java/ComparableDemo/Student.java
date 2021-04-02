@@ -17,7 +17,7 @@ public class Student implements Comparable<Student> {
         int num = this.age - s.age;
 //        int num = s.age - this.age;
         //年龄相同时，按照姓名的字母顺序排序
-        int num2 = num==0?this.name.compareTo(s.name):num;
+        int num2 = num == 0 ? this.name.compareTo(s.name) : num;
         return num2;
     }
 

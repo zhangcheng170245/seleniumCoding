@@ -24,6 +24,7 @@ class StepModelTest {
         ApiLoader.load("src/main/resources/api");
         logger.info("debugger!");
     }
+
     @Test
     void runTest() {
         //实参
@@ -31,7 +32,7 @@ class StepModelTest {
         actualParameter.add("ww2371688596201076");
         actualParameter.add("okaj3sQZSWJmGneNjh4s4IHkp5RD8j3v_7ZSa8IHF6Y");
 
-        //m模拟yamal文件读取
+        //模拟yamal文件读取
         ArrayList<AssertModel> asserts = new ArrayList<>();
         AssertModel assertModel = new AssertModel();
         assertModel.setActual("errcode");
@@ -40,11 +41,11 @@ class StepModelTest {
         assertModel.setReason("getToken错误码校验01");
         asserts.add(assertModel);
         //save b保存测试
-        HashMap<String ,String> save= new HashMap<>();
-        save.put("accesstoken","access_token");
+        HashMap<String, String> save = new HashMap<>();
+        save.put("accesstoken", "access_token");
         //globalsave
-        HashMap<String ,String> globalsave = new HashMap<>();
-        globalsave.put("accesstoken","access_token");
+        HashMap<String, String> globalsave = new HashMap<>();
+        globalsave.put("accesstoken", "access_token");
 
         StepModel stepModel = new StepModel();
         stepModel.setApi("tokenhelper");

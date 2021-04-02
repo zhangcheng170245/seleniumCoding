@@ -65,6 +65,12 @@
             <version>4.1.2</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>net.lightbody.bmp</groupId>
+            <artifactId>browsermob-core</artifactId>
+            <version>2.1.5</version>
+            <scope>compile</scope>
+        </dependency>
 
 
     </dependencies>

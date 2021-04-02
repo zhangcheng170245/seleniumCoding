@@ -7,11 +7,20 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/junit5Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/junt4Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/seleniumAuto/pom.xml" />
+        <option value="$PROJECT_DIR$/TestNGDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/wechatApi/pom.xml" />
+        <option value="$PROJECT_DIR$/mockProject/pom.xml" />
+        <option value="$PROJECT_DIR$/PageObjzcc/pom.xml" />
+        <option value="$PROJECT_DIR$/testAppium/pom.xml" />
+        <option value="$PROJECT_DIR$/wechatApiTest/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

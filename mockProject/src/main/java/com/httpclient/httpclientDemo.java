@@ -24,9 +24,9 @@ public class httpclientDemo {
         HttpGet httpget = new HttpGet("http://www.baidu.com/");
         System.out.println("executing request " + httpget.getURI());
         //执行请求
-        CloseableHttpResponse response= httpclient.execute(httpget);
+        CloseableHttpResponse response = httpclient.execute(httpget);
         // 获取响应实体
-        HttpEntity entity= response.getEntity();
+        HttpEntity entity = response.getEntity();
         System.out.println("Response content: " + EntityUtils.toString(entity));
     }
 

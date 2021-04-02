@@ -5,7 +5,7 @@ steps:
   - api: tokenhelper
     action: getToken
     actualParameter: ["ww2371688596201076","okaj3sQZSWJmGneNjh4s4IHkp5RD8j3v_7ZSa8IHF6Y"]
-    #设置打全局作用域
+    #设置全局作用域
     saveGlobal:
       accesstoken: access_token
     asserts:

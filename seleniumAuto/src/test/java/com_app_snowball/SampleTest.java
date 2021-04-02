@@ -8,16 +8,18 @@ import io.appium.java_client.touch.offset.PointOption;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Stream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -28,7 +30,7 @@ import static org.junit.Assert.assertEquals;
  * @param
  * @Auther: zhangcheng
  * @Date: 2020/11/28 22:25
- * @Description:
+ * @Description:  未优化前
  */
 public class SampleTest {
 
@@ -36,6 +38,7 @@ public class SampleTest {
     private  static MainPage mainPage;
     private static  WebDriverWait wait;
     public SampleTest() {
+
     }
 
     @BeforeAll
@@ -46,7 +49,7 @@ public class SampleTest {
         desiredCapabilities.setCapability("deviceName", "Redmi_6A");
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
-        //desiredCapabilities.setCapability("noReset", "true");
+        desiredCapabilities.setCapability("noReset", "true");
         desiredCapabilities.setCapability("udid", "a160c6af7d23");
         //链接appniumserver地址
          driver = new AndroidDriver<>(new URL("http://0.0.0.0:4723/wd/hub"), desiredCapabilities);
@@ -120,7 +123,7 @@ public class SampleTest {
 
     }
 
-    @Test
+   /* @Test
     @DisplayName("测试名称：隐式等待")
     public  void waityinshi() throws InterruptedException {
         wait=new WebDriverWait(driver,10,1000);
@@ -131,7 +134,7 @@ public class SampleTest {
         System.out.println(element.getAttribute("enable"));
         element.click();
 
-     }
+     }*/
 
 
     @Test
@@ -168,6 +171,41 @@ public class SampleTest {
         //hamcrest 断言
         assertThat("股票价格比对",realPrice,greaterThan(500d));
     }
+
+    @ParameterizedTest
+    @MethodSource("byNameGetPrice")
+    public void searchByParam(String name,String code ,double price)  //声明参数
+            throws InterruptedException {
+        //Thread.sleep(10000);
+        driver.findElement(By.id("com.xueqiu.android:id/home_search")).click();
+        driver.findElement(By.id("com.xueqiu.android:id/search_input_text")).sendKeys("阿里巴巴");
+        //点击港股阿里巴巴
+        driver.findElement(By.xpath("//*[@text='BABA']")).click();
+        String text = driver.findElement(By.xpath
+                ("//*[@text='09988']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']")).getText();
+        System.out.println(text);
     }
+
+
+
+    // 参数化
+    private  static Stream<Arguments> byNameGetPrice(){
+        return Stream.of(Arguments.of("alibab","",220d),
+                Arguments.of("google","",220d),
+                Arguments.of("baidu","",180d)
+                ); }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
 
 

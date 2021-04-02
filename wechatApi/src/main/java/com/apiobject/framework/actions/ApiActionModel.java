@@ -19,7 +19,6 @@ import static io.restassured.RestAssured.given;
  */
 @Data
 public class ApiActionModel {
-
     private String method = "get"; //设置默认请求方式为get
     private String url;
     private String body;
@@ -31,7 +30,6 @@ public class ApiActionModel {
     private Response response; //接受返回参数
     private ArrayList<String> formalParam; //形参
     private HashMap<String, String> actionVariables = new HashMap<>();
-
 
     //定义run方法
     public Response run(ArrayList<String> actualParameter) {  //入参

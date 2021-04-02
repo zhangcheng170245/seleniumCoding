@@ -26,6 +26,17 @@ public class TestYamlJson {
         assertTrue(user.name.length() > 3);
 
     }
+    static List<User> testDDTFromJson() throws IOException {
+        //创建objmapper 去掉new YAMLFactory()
+        ObjectMapper mapper = new ObjectMapper();
+        TypeReference typeReference = new TypeReference<List<User>>() {
+        };
+        //读取user.json
+        List<User> users = mapper.readValue(
+                TestYaml.class.getResourceAsStream("/user.json"),typeReference
+        );
+        return users;
+    }
 
     @ParameterizedTest
     @CsvFileSource(resources = {"user.csv"} ,numLinesToSkip = 1)
@@ -34,15 +45,5 @@ public class TestYamlJson {
         System.out.println(n2);
     }
 
-    static List<User> testDDTFromJson() throws IOException {
-        //创建objmapper 去掉new YAMLFactory()
-        ObjectMapper mapper = new ObjectMapper();
-        TypeReference typeReference = new TypeReference<List<User>>() {
-        };
-        //读取useryaml
-        List<User> users = mapper.readValue(
-                TestYaml.class.getResourceAsStream("/user.json"),typeReference
-        );
-        return users;
-    }
+
 }

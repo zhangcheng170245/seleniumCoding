@@ -1,0 +1,49 @@
+{
+  "name": "searchByParam()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615778473133,
+  "stop": 1615778490528,
+  "uuid": "dcc93bcf-e98d-418b-ae14-ab0061582f83",
+  "historyId": "f12ba02e41fe55690598ec2ba9548a4d",
+  "fullName": "com_app_snowball.SampleTest.searchByParam",
+  "labels": [
+    {
+      "name": "host",
+      "value": "USER-20161017XP"
+    },
+    {
+      "name": "thread",
+      "value": "11736@USER-20161017XP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "com_app_snowball.SampleTest"
+    },
+    {
+      "name": "testClass",
+      "value": "com_app_snowball.SampleTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchByParam"
+    },
+    {
+      "name": "suite",
+      "value": "com_app_snowball.SampleTest"
+    }
+  ],
+  "links": []
+}

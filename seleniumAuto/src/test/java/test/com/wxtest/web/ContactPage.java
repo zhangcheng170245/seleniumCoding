@@ -37,7 +37,7 @@ public class ContactPage extends BasePage {
         Thread.sleep(3000);
         click(By.linkText("添加"));
         click(By.className("js_create_party"));
-        sendKeys(By.name("name"),departName);
+        sendKeys(By.name("name"), departName);
         click(By.linkText("选择所属部门"));
         Thread.sleep(2000);
         driver.findElements(By.linkText("面向对象")).get(1).click();
@@ -103,7 +103,7 @@ public class ContactPage extends BasePage {
 
     //添加成员
     ContactPage addMember(String username, String acctid, String mobile) throws InterruptedException {
-       //点击联系人
+        //点击联系人
         click(By.id("menu_contacts"));
         click(By.linkText("添加成员"));
         Thread.sleep(3000);
@@ -136,11 +136,11 @@ public class ContactPage extends BasePage {
     }
 
     //修改成员邮箱信息
-    ContactPage modifyMemEmail(String departName, String memName,String email) {
+    ContactPage modifyMemEmail(String departName, String memName, String email) {
         if (searchDepart(departName).getDepartInfo().contains(memName)) {
             click(By.linkText(memName));
             click(By.linkText("编辑"));
-            sendKeys(By.name("alias"),email);
+            sendKeys(By.name("alias"), email);
             click(By.linkText("保存"));
         } else {
             System.out.println("成员不存在");
@@ -148,10 +148,9 @@ public class ContactPage extends BasePage {
         return this;
     }
 
-    String getMemEmail(){
+    String getMemEmail() {
         return getText(By.className("member_display_item member_display_item_Email"));
     }
-
 
 
 }

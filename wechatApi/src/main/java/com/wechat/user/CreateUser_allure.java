@@ -39,7 +39,7 @@ public class CreateUser_allure {
     }
 
     //数据清理  每次用例启动结束时执
-     @BeforeEach
+    @BeforeEach
     @AfterEach
     void clearUser(){
          UserClearTask.clearUserClearTask(accessToken);

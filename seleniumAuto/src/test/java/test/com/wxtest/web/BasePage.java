@@ -3,7 +3,6 @@ package test.com.wxtest.web;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -36,7 +35,7 @@ public class BasePage {
     //等待元素
     void waitElem(By by){
         wait = new WebDriverWait(driver,10);
-        wait.until(ExpectedConditions.elementToBeClickable(by));
+        //wait.until(ExpectedConditions.elementToBeClickable(by));
     }
 
     //下拉框操作

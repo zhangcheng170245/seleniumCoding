@@ -1,0 +1,49 @@
+{
+  "name": "stubMock()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615908589763,
+  "stop": 1615908640499,
+  "uuid": "1ba3ad3a-82e4-482f-a204-32c67926ec85",
+  "historyId": "907cf01d347889e863b67c7bace9aecc",
+  "fullName": "com.wiremock.WireMockDemo.stubMock",
+  "labels": [
+    {
+      "name": "host",
+      "value": "USER-20161017XP"
+    },
+    {
+      "name": "thread",
+      "value": "16476@USER-20161017XP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "com.wiremock.WireMockDemo"
+    },
+    {
+      "name": "testClass",
+      "value": "com.wiremock.WireMockDemo"
+    },
+    {
+      "name": "testMethod",
+      "value": "stubMock"
+    },
+    {
+      "name": "suite",
+      "value": "com.wiremock.WireMockDemo"
+    }
+  ],
+  "links": []
+}

@@ -2,6 +2,7 @@ package com.wiremock;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
+import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -26,7 +27,6 @@ public class WireMockDemo {
         wireMockServer.start();
         //指定ip端口
         configureFor("localhost",8089);
-
     }
 
     // stub 返回固定值 不够灵活
@@ -46,7 +46,6 @@ public class WireMockDemo {
     }
 
     // 伪造restful 服务   "headers":{
-    //      "Content-Type":"text/html;charset=gbk"
     @Test
     void  mockJson(){
         try {
@@ -72,15 +71,40 @@ public class WireMockDemo {
                       "\t\"respCode\": \"000\"\n" +
                       "}")
               .withStatus(200)
-             ));
+                     .withFixedDelay(20000)));// 延迟
+
             Thread.sleep(500000);
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
+    @Test
+    public void delapyDemo(){
+        stubFor(get(urlEqualTo("/delayDemo"))
+                .willReturn(WireMock.aResponse()
+                        .withHeader("Content-Type","text/html;charset=utf-8")
+                        .withStatus(HttpStatus.SC_OK) // 设置返回码为200
+                        .withBody("ok")
+                        .withFixedDelay(20000)));// 延迟
 
     }
 
+    // 模拟故障码
+    @Test
+    public void testBadResponse() throws InterruptedException {
+            stubFor(get(urlEqualTo("/test"))
+           // .willReturn(aResponse().withFault(Fault.EMPTY_RESPONSE))
+                    //.willReturn(aResponse().withFault(Fault.CONNECTION_RESET_BY_PEER))
+                    .willReturn(aResponse()
+                            .withStatus(HttpStatus.SC_SERVICE_UNAVAILABLE)
+                            .withHeader("Content-Type", "text/xml")
+                            .withBody("service unavailable")));
+        Thread.sleep(50000);
+    }
+
+
+    //================================================================================
     @Test   //设置返回切换值
     public void easyMock() {
         try {

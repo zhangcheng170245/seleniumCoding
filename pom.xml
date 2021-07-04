@@ -7,6 +7,19 @@
 	<groupId>com.zz</groupId>
 	<artifactId>test_selenium</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>junit5Demo</module>
+		<module>junt4Demo</module>
+		<module>mockProject</module>
+		<module>seleniumAuto</module>
+		<module>PageObjzcc</module>
+		<module>testAppium</module>
+		<module>TestNGDemo</module>
+		<module>wechatApi</module>
+		<module>wechatApiTest</module>
+	</modules>
 
 
 	<properties>

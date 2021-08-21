@@ -1,9 +1,8 @@
 package JunitDemo5;
 
+
 import org.junit.jupiter.api.Test;
 import util.Calculator;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @Author: zhangcheng
@@ -19,6 +18,10 @@ public class Junit5_BaseTest {
         System.out.println("add:" + result);
         assertEquals(6,result);
     }
+
+    private void assertEquals(int i, int result) {
+    }
+
     @Test
     public void subtractTest() throws InterruptedException {
         int result = Calculator.subtract(4,2);

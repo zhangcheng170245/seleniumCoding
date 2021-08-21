@@ -32,7 +32,6 @@ public class Junit5Demo_Fixtures {
         System.out.println("Father AfterAll 执行了!");
     }
 
-
     @Test
     void testMethod01() {
         System.out.println("Father testMethod01 执行了!");

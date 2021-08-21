@@ -17,12 +17,13 @@ public class Junit5Demo_4_1Parrallel {
     @BeforeEach
     void beforeEachTest(){
         Calculator.clear();
-        System.out.println("beforeEachTest");
+        System.out.println("测试前置");
     }
     @RepeatedTest(10)
+    //@Test
     void countTest() throws InterruptedException{
           int result =Calculator.count(1);
-             System.out.println(result);
+          System.out.println(result);
    }
 
     @RepeatedTest(9)

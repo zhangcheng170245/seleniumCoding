@@ -2,7 +2,6 @@ package JunitDemo5;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -13,11 +12,11 @@ import org.junit.jupiter.api.Test;
  */
 public class Junit5_Nest {
 
-    @DisplayName("重复执行")
+   /* @DisplayName("重复执行")
     @RepeatedTest(value = 3,name = "{displayName},执行第{currentRepetition}次}")
     void repetition(){
         System.out.println("repetition");
-    }
+    }*/
 
     @Nested
     @DisplayName("第二个执行")

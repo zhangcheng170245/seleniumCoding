@@ -32,10 +32,10 @@ public class TestYamlJson {
         TypeReference typeReference = new TypeReference<List<User>>() {
         };
         //读取user.json
-        List<User> users = mapper.readValue(
-                TestYaml.class.getResourceAsStream("/user.json"),typeReference
+        Object users = mapper.readValue(
+                TestYamlJson.class.getResourceAsStream("/user.json"),typeReference
         );
-        return users;
+        return (List<User>) users;
     }
 
     @ParameterizedTest

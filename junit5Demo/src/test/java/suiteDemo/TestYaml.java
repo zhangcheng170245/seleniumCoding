@@ -25,14 +25,14 @@ public class TestYaml {
         assertTrue(user.name.length() > 4);
 
     }
-    static List<User> testDDTFromYaml() throws IOException {
+    static Object testDDTFromYaml() throws IOException {
         //创建objmapper  jackson序列化与反
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         //ji
         TypeReference typeReference = new TypeReference<List<User>>() {
         };
         //读取useryaml 反序列化为类
-        List<User> users = mapper.readValue(
+        Object users = mapper.readValue(
                 TestYaml.class.getResourceAsStream("/user.yaml"),typeReference
         );
         return users;

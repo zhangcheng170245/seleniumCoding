@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @Date: 2021/3/10/010 8:16
  * @Version: 1.0
  */
-public class valueSourceDemo1 {
+public class  valueSourceDemo1 {
 
     @ParameterizedTest
     @ValueSource(ints = {4,8,12})

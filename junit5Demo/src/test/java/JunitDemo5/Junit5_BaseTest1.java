@@ -29,7 +29,7 @@ public class Junit5_BaseTest1 {
     @RepeatedTest(5)
         // 重复测试
     void fun() {
-//        如果是junit4 需要public修饰
+//      如果是junit4 需要public修饰
         System.out.println("测试方法~1");
     }
 

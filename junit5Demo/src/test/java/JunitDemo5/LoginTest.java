@@ -44,9 +44,8 @@ public class LoginTest {
           @Test
           void buyToo(){
             // 判断是否登录成功
-            if (data.get("orange").equals("登录成功==先执行")) {
+            if (data.get("orange")==("登录成功==先执行")) {
               System.out.println("登录成功，可以购买东西了");
-
               data.put("buy","苹果汽车购买成功");
             } else {
               System.out.println("登录失败，请重新登录");

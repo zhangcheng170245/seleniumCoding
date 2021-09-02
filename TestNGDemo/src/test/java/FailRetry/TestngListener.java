@@ -10,11 +10,13 @@ import java.util.Iterator;
 
 /**
  * @Author: zhangcheng
- * @Description:
+ * @Description: 监听器
+ *
  * @Date: 2021/3/12/012 14:59
  * @Version: 1.0
  */
 public class TestngListener extends TestListenerAdapter {
+
     private static Logger logger = Logger.getLogger(TestngListener.class);
 
     @Override

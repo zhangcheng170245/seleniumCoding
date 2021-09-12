@@ -19,7 +19,7 @@ import util.FakerUtils;
  * @Date: 2021/9/12 12:40
  * @Version: 1.0
  */
-public class testCase {
+public class testCase  {
     public static WebDriver driver;
     public static WebDriverWait webDriverWait;
 

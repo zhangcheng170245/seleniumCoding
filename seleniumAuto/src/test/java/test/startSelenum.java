@@ -18,7 +18,7 @@ import java.io.IOException;
  * @Date: 2020/8/16 23:07
  * @Description:seleium demo
  */
-public class startSelenum {
+public class startSelenum  {
 
 
     @Test

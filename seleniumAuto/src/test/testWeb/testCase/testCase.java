@@ -21,6 +21,7 @@ public class testCase  {
     public static WebDriverWait webDriverWait;
     public static WebElement element;
 
+
     @BeforeAll
     static void initData(){
         //加载驱动

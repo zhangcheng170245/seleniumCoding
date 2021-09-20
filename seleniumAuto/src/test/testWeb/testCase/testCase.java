@@ -17,6 +17,7 @@ import util.FakerUtils;
  * @Version: 1.0
  */
 public class testCase  {
+
     public static WebDriver driver;
     public static WebDriverWait webDriverWait;
     public static WebElement element;

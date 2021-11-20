@@ -1,7 +1,9 @@
 package util;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
@@ -47,6 +49,13 @@ public class FakerUtils {
 
     }
 
+    public static String getTime() {
+
+        SimpleDateFormat df = new SimpleDateFormat("MMddHH:mm:ss");//设置日期格式
+        String date = df.format(new Date());
+        return date;
+
+    }
     /**
      * @author: wenxiaolong
      * @methodsName: getNum

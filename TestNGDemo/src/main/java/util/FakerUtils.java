@@ -55,13 +55,7 @@ public class FakerUtils {
         return date;
 
     }
-    /**
-     * @author: wenxiaolong
-     * @methodsName: getNum
-     * @description:
-     * @param: [start, end]
-     * @return: int
-     */
+
     public static int getNum(
             int start, int end) {
         return (int) (Math.random() * (end - start + 1) + start);

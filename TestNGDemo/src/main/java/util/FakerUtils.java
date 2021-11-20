@@ -50,7 +50,6 @@ public class FakerUtils {
     }
 
     public static String getTime() {
-
         SimpleDateFormat df = new SimpleDateFormat("MMddHH:mm:ss");//设置日期格式
         String date = df.format(new Date());
         return date;

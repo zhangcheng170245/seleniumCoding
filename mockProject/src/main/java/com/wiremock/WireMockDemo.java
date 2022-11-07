@@ -2,13 +2,16 @@ package com.wiremock;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
+import com.google.gson.stream.JsonReader;
 import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Objects;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
@@ -49,7 +52,7 @@ public class WireMockDemo {
     @Test
     void  mockJson(){
         try {
-            stubFor(get(urlEqualTo("/login"))
+            stubFor(get(urlEqualTo("/login1"))
              .willReturn(WireMock.aResponse()
                 .withHeader("Content-Type","text/html;charset=utf-8")       //设置编码
             // .withBody("{\"username\":chengzi}")
@@ -79,6 +82,31 @@ public class WireMockDemo {
         }
     }
 
+
+    // 模拟从本地读取
+    @Test
+    void mockForlocal(){
+        JsonReader jsonReaderStream = new JsonReader(new
+                InputStreamReader(Objects.requireNonNull(ClassLoader.getSystemClassLoader().getResourceAsStream("success.json"))));
+        System.out.println(jsonReaderStream.getPath());
+
+ /*       try {
+            stubFor(get(urlEqualTo("/login"))
+                    .willReturn(WireMock.aResponse()
+                            .withHeader("Content-Type","text/html;charset=utf-8")       //设置编码
+                            // .withBody("{\"username\":chengzi}")
+                            .withBody(String.valueOf(WireMockDemo.class.getResource("/success.json")))
+                            .withStatus(200)
+                            .withFixedDelay(20000)));// 延迟
+
+            Thread.sleep(500000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }*/
+    }
+
+
+
     @Test
     public void delapyDemo(){
         stubFor(get(urlEqualTo("/delayDemo"))
@@ -87,7 +115,6 @@ public class WireMockDemo {
                         .withStatus(HttpStatus.SC_OK) // 设置返回码为200
                         .withBody("ok")
                         .withFixedDelay(20000)));// 延迟
-
     }
 
     // 模拟故障码
@@ -130,14 +157,14 @@ public class WireMockDemo {
 
     @Test   //代理mock
     public void prpxyMock() {
-        System.out.println(WireMockDemo.class.getResource("/mock1.json").getPath());
+        System.out.println(WireMockDemo.class.getResource("/mock3.json").getPath());
         try {
             stubFor(get(urlMatching(".*")).atPriority(10)
                     .willReturn(aResponse().proxiedFrom("https://ceshiren.com"))); //监听网站地址的内容
             stubFor(get(urlMatching("/categories_and_latest")).atPriority(10)
                     .willReturn(aResponse().withBody(Files.readAllBytes(
                             // 将返回的内容替换为本地mock后的数据
-                            Paths.get(WireMockDemo.class.getResource("/mock1.json").getPath().substring(1)))))); //读取修改后的json数据
+                            Paths.get(WireMockDemo.class.getResource("/mock3.json").getPath().substring(1)))))); //读取修改后的json数据
             Thread.sleep(500000);
         } catch (IOException e) {
             e.printStackTrace();

@@ -1,11 +1,12 @@
 package letcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
  * @ProjectName: seleniumCoding
  * @Package: letcode
- * @ClassName: 数组翻转
+ * @ClassName: 数组翻转位数
  * @Author: 还是那个橙子
  * @Description:
  * @Date: 2022/11/11 17:17
@@ -13,8 +14,8 @@ import java.util.Arrays;
  */
 
 public class 数组翻转 {  public static void main(String[] args) {
-    int[] nums={1,2,3,4,5,6,7};
-    reverse2(nums,3);
+    int[] nums={1,2,3,4,5,6,7,7};
+    reverse2(nums,-1);
     System.out.println(9%7);
     System.out.println(Arrays.toString(nums));
 }
@@ -31,9 +32,12 @@ public class 数组翻转 {  public static void main(String[] args) {
         for (int i = 0; i < len; i++) {
             temp[i]=nums[i];
         }
+        // arraylist数据不可重复
+        ArrayList<Integer> list = new ArrayList<>();
         //把临时数组的值放到原数组中
         for (int i = 0; i < len; i++) {
             nums[i]=temp[(i+K)%len];  // 通过取证
+
         }
     }
 
